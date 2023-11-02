@@ -1,0 +1,62 @@
+$margin-0: 0;
+$margin-1: 0.25rem;
+$margin-2: 0.5rem;
+$margin-3: 1rem;
+$margin-4: 2rem;
+$margin-5: 3rem;
+
+$margin-0: 0;
+$marginPer-1: 10%;
+$marginPer-2: 25%;
+$marginPer-3: 50%;
+$marginPer-4: 75%;
+$marginPer-5: 100%;
+$marginPer-auto: auto;
+
+.basicMarg-0 {
+    margin: 0;
+}
+.basicMarg-1 {
+    margin: $margin-0 $marginPer-1;
+}
+.basicMarg-1-1 {
+    margin: 0 $marginPer-1 $margin-3;
+}
+.basicMarg-1-2 {
+    margin: 0 $marginPer-2 $margin-3;
+}
+.basicMarg-1-3 {
+    margin: 0 $marginPer-3 $margin-3;
+}
+.basicMarg-1-4 {
+    margin: 0 $marginPer-4 $margin-3;
+}
+.basicMarg-1-5 {
+    margin: 0 $marginPer-5 $margin-3;
+}
+.basicMarg-2 {
+    margin: $margin-0 $marginPer-1;
+}
+.basicMarg-2-1 {
+    margin: 0 $marginPer-1 $margin-3;
+}
+.basicMarg-2-2 {
+    margin: 0 $marginPer-2 $margin-3;
+}
+.basicMarg-2-3 {
+    margin: 0 $marginPer-3 $margin-3;
+}
+.basicMarg-2-4 {
+    margin: 0 $marginPer-4 $margin-3;
+}
+.basicMarg-2-5 {
+    margin: 0 $marginPer-5 $margin-3;
+}
+
+
+
+$WidthImgSize-1: 100px;
+$WidthImgSize-2: 200px;
+$WidthImgSize-3: 300px;
+$WidthImgSize-4: 500px;
+$WidthImgSize-5: 1000px;

@@ -1,0 +1,41 @@
+
+@import "./assets/scss/partials/spaziature";
+@import "./assets/scss/colors/colors";
+@import "./assets/scss/fonts/fonts";
+
+body {
+    margin: $margin-0;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        .logo-loremipsum {
+            width: $WidthImgSize-1;
+            img {
+                width: 100%;
+            }
+        }
+        .navigations-info {
+display: flex;
+justify-content: center;
+margin-right: $marginPer-1;
+ }
+     }
+     header {
+        display: flex;
+        flex-direction: column;
+align-items: center; 
+.buttons-container {
+    display: flex;
+justify-content: space-around;
+}    
+}
+}
+
+
+
+
+
+
+
